@@ -67,7 +67,7 @@
      	pot = x*(x*k);
      	}
     	 
-        printf ("\n O resuldo é : %d", pot);
+        printf ("\n O resultado é : %d", pot);
 	   }
 	   else if(a == 3){               
 	   printf("Bem-vindo ao menu 3\n");      //Logaritmo     //Questao 4
@@ -109,18 +109,18 @@
 	         media = (cd1 + cd2 + cd3)/3;               //Calculo da media
 	         mp=(cd1*n1)+(cd2*n1)+(cd3*n2)/1+2+3;             //Calculo da media ponderada
 	   
-	   printf("Sua media é %f\n", media);
-	   printf("Media pondera é %f\n", mp);
+	   printf("Sua média é %f\n", media);
+	   printf("Média pondera é %f\n", mp);
 	   printf("Seu CRE é %f\n", cr);
 	   if(media>=6.0){
-	   	printf("Parabens, voce foi aprovado!");
+	   	printf("Parabéns, voce foi aprovado!");
 	   }
 	   else
 	   printf("Infelizmente, voce foi reprovado!");
        }
 	   else if(a == 6){                      //Questao 7
 	   printf("Bem-vindo ao menu 6\n");
-	     printf("Digite suas 2 notas, para o calculo da media\n"); //Calculo da media
+	     printf("Digite suas 2 notas, para o calculo da média\n"); //Calculo da media
 	   scanf("%f %f", &cd1, &cd2);  
 	   media = (cd1 + cd2)/2;
 	   
@@ -143,9 +143,9 @@
 	   }
 	   else if(a == 10){                    //Questao 8
 	   printf("Bem-vindo ao menu 10\n"); //Transformação da matricula em hexa-decimal e a repitação do nome
-       printf("Sua matricula, por favor: \n");
+       printf("Disponha sua matricula, por favor: \n");
 	   scanf("%ld", &decimal);
-	   printf("Seu nome, por favor: ");
+	   printf("Disponha o seu nome, por favor: ");
 	   scanf("%s",nome);
 	 
 	   q = decimal;
