@@ -5,7 +5,6 @@
 #include <conio.h>
  
  int main(void){               //Questao 1
- 	//Adaptação do programa para PT-BR
  	
 	 setlocale(LC_ALL, "Portuguese");
  	
@@ -25,16 +24,16 @@
 	 //Informações sobre selecionaveis + leitor de variavel
  	 system("cls");
 	 printf("\nDigite 0 para finalizar o programa\n"
-	       "1 para o menu um\n"
-		   "2 para o menu dois\n"
-		   "3 para o menu três\n"
-		   "4 para o menu quatro\n"
-		   "5 para o menu cinco\n"
-		   "6 para o menu seis\n"
-		   "7 para o menu sete\n"
-		   "8 para o menu oito\n"
-		   "9 para o menu nove\n"
-		   "10 para o menu dez\n");
+	       "1 Para o menu um\n"
+		   "2 Para o menu dois\n"
+		   "3 Para o menu três\n"
+		   "4 Para o menu quatro\n"
+		   "5 Para o menu cinco\n"
+		   "6 Para o menu seis\n"
+		   "7 Para o menu sete\n"
+		   "8 Para o menu oito\n"
+		   "9 Para o menu nove\n"
+		   "10 Para o menu dez\n");
 	scanf("%d", &a); 
 	system("cls");
 	
@@ -46,7 +45,7 @@
 	   
 	   if(a == 1){                            //Questao 2
 	   printf("Bem-vindo ao menu 1\n");  
-	   printf("digite um numero inteiro: ");     //Indentifica se o numero é par ou impar
+	   printf("Digite um numero inteiro: ");     //Indentifica se o numero é par ou impar
 		scanf("%d",&num);
 		if(num%2==0)//operador %
 		{
@@ -91,7 +90,7 @@
        }
 	   else if(a == 4){                   //Questao 5
 	   printf("Bem-vindo ao menu 4\n");   //Indentifica se o ano é bissexto ou nao
-	  printf("digite um ano: ");
+	  printf("Digite um ano: ");
 		scanf("%d",&num);
 		if(num%4==0)   //operador %
 		{
@@ -144,9 +143,9 @@
 	   }
 	   else if(a == 10){                    //Questao 8
 	   printf("Bem-vindo ao menu 10\n"); //Transformação da matricula em hexa-decimal e a repitação do nome
-       printf("sua matricula, por favor: \n");
+       printf("Sua matricula, por favor: \n");
 	   scanf("%ld", &decimal);
-	   printf("seu nome, por favor: ");
+	   printf("Seu nome, por favor: ");
 	   scanf("%s",nome);
 	 
 	   q = decimal;
@@ -160,8 +159,8 @@
 	   hexadecimal[j++] = 55 + r;   
 	   q = q / 16;            
 	   }
-	   printf("olá %s ",nome);
-	   printf("sua matricula em hexadecimal :",decimal);
+	   printf("Olá %s ",nome);
+	   printf("Sua matricula em hexadecimal :",decimal);
 	   
 	 
 	 
@@ -175,16 +174,16 @@
     //Opções a serem repetidas + Leitor de variavel
     
 	printf("\nDigite 0 para finalizar o programa\n"
-	       "1 para o menu um\n"
-		   "2 para o menu dois\n"
-		   "3 para o menu três\n"
-		   "4 para o menu quatro\n"
-		   "5 para o menu cinco\n"
-		   "6 para o menu seis\n"
-		   "7 para o menu sete\n"
-		   "8 para o menu oito\n"
-		   "9 para o menu nove\n"
-		   "10 para o menu dez\n");
+	       "1 Para o menu um\n"
+		   "2 Para o menu dois\n"
+		   "3 Para o menu três\n"
+		   "4 Para o menu quatro\n"
+		   "5 Para o menu cinco\n"
+		   "6 Para o menu seis\n"
+		   "7 Para o menu sete\n"
+		   "8 Para o menu oito\n"
+		   "9 Para o menu nove\n"
+		   "10 Para o menu dez\n");
 	scanf("%d", &a); 
 	system("cls");
 	
