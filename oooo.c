@@ -33,7 +33,7 @@ int main (){
 		
 		case 1: {
 			system("cls");
-			printf("Bem-vindo ao menu 1");
+			printf("Bem-vindo ao menu 1\n");
 		
 		    printf("digite um numero inteiro: ");     //Indentifica se o numero é par ou impar
 			scanf("%d",&num);
@@ -49,7 +49,7 @@ int main (){
 		
 		case 2: {
 			system("cls");
-			printf("Bem-vindo ao menu 2");
+			printf("Bem-vindo ao menu 2\n");
 			
 			printf ("Digite o primeiro numero: ");
      		scanf ("%d",&x);
@@ -67,7 +67,7 @@ int main (){
 		
 		case 3: {
 			system("cls");
-			printf("Bem-vindo ao menu 3");
+			printf("Bem-vindo ao menu \n");
 			
 			printf("Digite suas 2 numeros para operação logaritmo: \n");
 	   		scanf("%f %f", &w, &h);  
@@ -89,7 +89,7 @@ int main (){
 		
 		case 4: {
 			system("cls");
-			printf("Bem-vindo ao menu 4");
+			printf("Bem-vindo ao menu 4\n");
 			
 			printf("digite um ano: ");
 			scanf("%d",&num);
@@ -106,7 +106,7 @@ int main (){
 	
 		case 5: {
 			system("cls");
-			printf("Bem-vindo ao menu 5");
+			printf("Bem-vindo ao menu 5\n");
 			
 			printf("Digite suas 3 notas, para o calculo da media\n");
 	   		scanf("%f %f %f", &cd1, &cd2, &cd3);
@@ -129,7 +129,7 @@ int main (){
 		
 		case 6: {
 			system("cls");
-			printf("Bem-vindo ao menu 6");
+			printf("Bem-vindo ao menu 6\n");
 			
 			printf("Digite suas 2 notas, para o calculo da media\n"); //Calculo da media
 	   		scanf("%f %f", &cd1, &cd2);  
@@ -146,7 +146,7 @@ int main (){
 			
 		case 7:{
 			system("cls");
-			printf("Bem-vindo ao menu 7");
+			printf("Bem-vindo ao menu 7\n");
 			
 			printf("Insira um valor para o qual deseja calcular seu fatorial: ");
        		scanf("%d", &n);
@@ -160,7 +160,7 @@ int main (){
 		
 		case 8: {
 			system("cls");
-			printf("Bem-vindo ao menu 8");
+			printf("Bem-vindo ao menu 8\n");
 			
 			printf("Digite um número: ");
  	   		scanf("%d", &num);
@@ -175,7 +175,7 @@ int main (){
 			
 		case 9:{
 			system("cls");
-			printf("Bem-vindo ao menu 9");
+			printf("Bem-vindo ao menu 9\n");
 			printf("\nDigite um número: ");
     	    scanf("%d", &n3);
             printf("\nSérie de Fibonacci:\n\n");
@@ -195,7 +195,7 @@ int main (){
 		
 		case 10: {
 	   system("cls");
-	   printf("Bem-vindo ao menu 10");
+	   printf("Bem-vindo ao menu 10\n");
 	   printf("sua matricula, por favor: \n");
 	   scanf("%ld", &decimal);
 	   printf("seu nome, por favor: ");
