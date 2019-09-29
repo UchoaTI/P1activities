@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main () {
+    
+    char palavra1[50];
+    int cont = 0;
+
+    printf("Digite um palavra ou uma frase. \n==> ");
+    fflush(stdin); gets(palavra1); 
+// Com essas funções é possível digitar frases inteiras com espaços até o limite de 50 caracteres.
+
+    while (palavra1[cont] != '\0') {
+        cont++;
+    } cont++;
+
+    printf("O nome digitado foi %s com %i letras  \n", palavra1, cont);
+
+return 0;
+}
+
